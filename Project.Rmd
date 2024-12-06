@@ -6,23 +6,17 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+![](Num Movies Released.png)
+This graph shows that the distribution of genres is quite uneven. There are more movies in the action, comedy, and drama categories compares to the romance, western, and mystery categories.
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+![](Distribution of Genres.png)
+This graph shows that the distribution of movies releases per year is very skewed left. Starting around the 1990s, the number of movies released per year began to drastically increase.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+![](IMDbBudget.png)
+This linear regression demonstrates that there is little to no correlation between IMDb score and movie budget. Therefore, according to this dataset, having a higher budget does not necessarily mean that the movie will have a higher IMDb score.
 
-## Including Plots
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![](IMDbOscarGG.png)
+This linear regression shows that there is a weak positive correlation between IMDb score and number of Oscars and Golden Globes won. This relationship suggests that movies with a higher IMDb score are slightly more likely to win an Oscar or Golden Globe.
